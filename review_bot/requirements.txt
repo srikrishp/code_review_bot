@@ -1,0 +1,5 @@
+pylint
+bandit
+transformers
+torch
+accelerate
