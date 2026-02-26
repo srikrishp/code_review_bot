@@ -30,7 +30,7 @@ GitHub repositories
 ---
 
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Language:** Python  
 - **Static Analysis:** Pylint, Bandit  
@@ -40,7 +40,7 @@ GitHub repositories
 - **Version Control:** Git, GitHub  
 ---
 
-## 📁 Project Structure
+##  Project Structure
 1)User submits code (PR / file upload / commit)
 
 2)Bot parses and analyzes code
