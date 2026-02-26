@@ -1,27 +1,34 @@
 # code_review_bot
-# Review Bot 🤖
+An AI-powered Code Review Assistant Bot that automatically analyzes source code, detects issues, suggests improvements, and enhances overall code quality.
 
-Review Bot is an AI-powered code review assistant that analyzes Python source code using **static analysis tools** and **large language models (LLMs)** to generate clear, actionable improvement suggestions.
+This tool helps developers by providing instant feedback on:
 
-The project demonstrates how AI can assist developers in identifying **code quality issues, security risks, and best-practice violations**, helping reduce manual code review effort.
+1)Code quality
 
+2)Best practices
+
+3)Possible bugs
+
+4)Performance improvements
+
+5)Security vulnerabilities
+
+# Overview
+
+Manual code reviews can be time-consuming and inconsistent.
+This bot automates the initial review process using static analysis + AI-based suggestions to assist developers before merging code.
+
+It can be integrated with:
+
+**Pull Requests**
+
+**Local CLI workflows**
+
+**CI/CD pipelines**
+
+GitHub repositories
 ---
 
-## 🚀 Features
-
-- 🔍 **Static Code Analysis**
-  - Uses **Pylint** to detect code quality, style, and maintainability issues
-  - Uses **Bandit** to identify basic security vulnerabilities
-
-- 🤖 **AI-Assisted Code Review**
-  - Converts static analysis reports into human-readable suggestions using **Hugging Face LLMs**
-  - No paid APIs or API keys required
-
-- 🧩 **Modular Project Structure**
-  - Clean, extensible folder design
-  - Easy to integrate with CI/CD pipelines or GitHub workflows in the future
-
----
 
 ## 🛠 Tech Stack
 
@@ -31,8 +38,29 @@ The project demonstrates how AI can assist developers in identifying **code qual
 - **Model Used:** FLAN-T5  
 - **Development Environment:** Google Colab  
 - **Version Control:** Git, GitHub  
-
 ---
 
 ## 📁 Project Structure
+1)User submits code (PR / file upload / commit)
 
+2)Bot parses and analyzes code
+
+3)Static analysis tools run
+
+4)AI model evaluates logic & structure
+
+5)Suggestions are generated
+
+6)Review report is returned
+
+## License
+
+This project is licensed under the MIT License.
+## Uses
+1)Developers reviewing PRs
+
+2)Teams improving code quality
+
+3)Students learning best practices
+
+4)Open-source contributors
